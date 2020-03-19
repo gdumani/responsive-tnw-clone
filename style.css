@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+.second-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 50px;
+  padding: 0.75em;
+  border: 1px solid magenta;
+}
+
+.icons {
+  display: flex;
+  /* padding: 1em;   */
+}
+
+.icons div {
+  border: 1px solid magenta;
+  padding: 0.75em;
+}
+
+.yellow-separator {
+  text-align: center;
+  padding: 0.50em;
+  background: #fcdd33;
+  font-size: 14px;
+  /* font-weight: 400; */
+}
