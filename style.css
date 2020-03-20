@@ -8,6 +8,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 header {
   width: 100%;
   max-width: 750px;
@@ -53,6 +58,19 @@ header {
 }
 
 .insights {
+  position: relative;
   border: 1px solid magenta;
-  margin: 0.5em;
+  margin: 0 0.5em;
+  z-index: -1;
+}
+
+.insights-img {
+  width: 100%;
+}
+
+.insights-inner-div {
+  position: absolute;
+  bottom: 1em;
+  color: #fff;
+  left: 1em;
 }
