@@ -6,12 +6,30 @@
 body {
   box-sizing: border-box;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 14px;
+  
 }
 
 a {
   text-decoration: none;
   color: #fff;
+}
+
+h1 {
+  font-family: Avalon, sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.p {
+  margin-bottom: 0.45rem;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+}
+
+.pp {
+  font-size: 10px;
+  margin-top: 0.45rem;
 }
 
 header {
@@ -85,3 +103,4 @@ header {
   left: 1em;
   z-index: 1;
 }
+
