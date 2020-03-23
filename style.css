@@ -104,3 +104,16 @@ header {
   z-index: 1;
 }
 
+.funding {
+  background: #f42;
+}
+
+.funding-amount,
+.funding-series {
+  background: #ff4422;
+}
+
+.funding-logo img {
+  width: 60px;
+  /* float: left; */
+}
