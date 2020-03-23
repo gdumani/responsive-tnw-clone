@@ -121,16 +121,66 @@ header {
   z-index: 1;
 }
 
+h2 {
+  color:#f42;
+  font-family: Avalon, sans-serif;
+  font-size: 1.5em;
+  padding: .5em ;
+}
+
+.funding-info p {
+  padding: .5em;
+}
+
+.funding-info a {
+  color: #f42;
+}
 .funding {
   background: #f42;
+  color: black;
+  margin: .5em;
 }
 
+
+.funding h3{
+  padding: .5rem 0;
+  color: white;
+}
+
+.funding a {
+  color: black;
+}
 .funding-amount,
 .funding-series {
-  background: #ff4422;
+  background: #ffebe7;
+  width: 100%;
 }
 
+.funding-amount {
+  font-size: 1.3em;
+  font-weight: 800;
+  padding-top: .4rem;
+}
+.funding-series {
+  font-size: .9em;
+  text-transform: uppercase;
+  font-weight: 200;
+}
 .funding-logo img {
   width: 60px;
-  /* float: left; */
+  float: left;
+  height: unset ;
+  padding: .5rem;
+}
+
+.funding-tags,
+.funding-description {
+  background: white;
+  padding: 0.8em;
+  font-size: .9em;
+}
+
+.funding-description {
+  border-top: 1px solid #f42;
+  margin-bottom: 1em;
 }
