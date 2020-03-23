@@ -5,8 +5,7 @@
 
 body {
   box-sizing: border-box;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;  
 }
 
 a {
@@ -14,11 +13,15 @@ a {
   color: #fff;
 }
 
+@font-face {
+  font-family: Avalon;
+  src: url(Avalon_Bold.ttf);
+}
+
 h1 {
   font-family: Avalon, sans-serif;
-  font-size: 1.25em;
+  font-size: 1.1em;
   font-weight: 700;
-  line-height: 1.5em;
 }
 
 .p {
@@ -30,6 +33,15 @@ h1 {
 .pp {
   font-size: 10px;
   margin-top: 0.45rem;
+  display: flex;
+  align-items: center;
+}
+
+.md-6 {
+  margin-left: 0.5em;
+  margin-right: 0.2em;
+  font-size: 10px;
+  color: grey;
 }
 
 header {
@@ -41,33 +53,38 @@ header {
 
 .second-nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
   justify-content: space-between;
 }
 
-.logo {
-  width: 50px;
-  padding: 0.75em;
-  border: 1px solid magenta;
+.logo-img {
+  height: 100%;
 }
 
 .icons {
   display: flex;
-  /* padding: 1em;   */
 }
 
 .icons div {
-  border: 1px solid magenta;
+  border-left: 1px solid lightgrey;
   padding: 0.75em;
+}
+
+.menu-icon {
+  color: #f74222;
+}
+
+.icon-search {
+  color: grey;
 }
 
 .yellow-separator {
   text-align: center;
   max-width: 750px;
   padding: 1.5em;
+  margin: 0;
   background: #fcdd33;
   font-size: 13px;
-  /* font-weight: 400; */
 }
 
 .top-section {
