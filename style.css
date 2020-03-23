@@ -18,6 +18,8 @@ a {
   src: url(Avalon_Bold.ttf);
 }
 
+
+
 h1 {
   font-family: Avalon, sans-serif;
   font-size: 1.1em;
@@ -26,7 +28,7 @@ h1 {
 
 .p {
   margin-bottom: 0.45rem;
-  font-family: Shentox, sans-serif;
+  font-family: sans-serif;
   font-weight: 500;
 }
 
@@ -132,5 +134,54 @@ header {
 
 .funding-logo img {
   width: 60px;
-  /* float: left; */
+}
+
+
+
+footer {
+  width: 100%;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  background: #131313;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.social-list {
+  padding: 1em;
+}
+
+.social-list a {
+  display: inline-block;
+  background: #333333;
+  padding: 0.75em;
+  /* margin: 0.5em; */
+  border-radius: 60%;
+}
+
+.site-contact {
+  font-size: 0.70em;
+  padding-top: 2em;
+}
+
+.site-contact a {
+  margin:0.25em;
+}
+
+.copyrights {
+  background: black;
+  color: white;
+  font-size: 13px;
+  padding: 3em;
+}
+
+.copyrights img {
+  width:40px;
+  color: white;
 }
