@@ -1,11 +1,11 @@
 * {
   margin: 0;
-  padding: 0;  
+  padding: 0;
 }
 
 body {
   box-sizing: border-box;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;  
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
 a {
@@ -17,8 +17,6 @@ a {
   font-family: Avalon;
   src: url(Avalon_Bold.ttf);
 }
-
-
 
 h1 {
   font-family: Avalon, sans-serif;
@@ -55,7 +53,7 @@ header {
 
 .second-nav {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -92,7 +90,7 @@ header {
 .top-section {
   display: flex;
   flex-direction: column;
-  max-width: 750px;  
+  max-width: 750px;
 }
 
 .insights {
@@ -103,19 +101,19 @@ header {
 }
 
 .insights-img {
-  width: 100%;  
+  width: 100%;
 }
 
 .insights::after {
   display: block;
-  position: relative;  
-  margin-top: -250px; 
+  position: relative;
+  margin-top: -250px;
   height: 250px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(89,89,89,0.39) 12%, rgba(0,0,0,0.43) 17%, rgba(102,102,102,0.49) 25%, rgba(44,44,44,0.58) 37%, rgba(71,71,71,0.6) 39%, rgba(17,17,17,0.76) 60%, rgba(43,43,43,0.88) 76%, rgba(40,40,40,200) 79%, rgba(28,28,28,255) 91%, rgba(19,19,19,255) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(89, 89, 89, 0.39) 12%, rgba(0, 0, 0, 0.43) 17%, rgba(102, 102, 102, 0.49) 25%, rgba(44, 44, 44, 0.58) 37%, rgba(71, 71, 71, 0.6) 39%, rgba(17, 17, 17, 0.76) 60%, rgba(43, 43, 43, 0.88) 76%, rgba(40, 40, 40, 200) 79%, rgba(28, 28, 28, 255) 91%, rgba(19, 19, 19, 255) 100%);
   content: '';
 }
 
-.insights-inner-div {  
+.insights-inner-div {
   position: absolute;
   bottom: 1em;
   color: #fff;
@@ -129,14 +127,12 @@ header {
 
 .funding-amount,
 .funding-series {
-  background: #ff4422;
+  background: #f42;
 }
 
 .funding-logo img {
   width: 60px;
 }
-
-
 
 footer {
   width: 100%;
@@ -159,9 +155,8 @@ footer {
 
 .social-list a {
   display: inline-block;
-  background: #333333;
+  background: #333;
   padding: 0.75em;
-  /* margin: 0.5em; */
   border-radius: 60%;
 }
 
