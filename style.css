@@ -152,7 +152,8 @@ h2 {
 }
 .funding-amount,
 .funding-series {
-  background: #f42;
+  background: #ffebe7;
+  width: 100%;
 }
 
 .funding-amount {
@@ -167,6 +168,21 @@ h2 {
 }
 .funding-logo img {
   width: 60px;
+  float: left;
+  height: unset;
+  padding: .5rem;
+}
+
+.funding-tags,
+.funding-description {
+  background: white;
+  padding: 0.8em;
+  font-size: .9em;
+}
+
+.funding-description {
+  border-top: 1px solid #f42;
+  margin-bottom: 1em;
 }
 
 footer {
