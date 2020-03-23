@@ -51,6 +51,11 @@ header {
   background: #fff;
 }
 
+.top-nav {
+  /* visibility: hidden; */
+  display: none;
+}
+
 .second-nav {
   display: flex;
   flex-direction: row;
