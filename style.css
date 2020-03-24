@@ -131,6 +131,57 @@ header {
   z-index: 1;
 }
 
+/**************
+***************
+this is the styling for the latest news section 
+***************
+***************/
+.latest-news{
+  width: 100%;
+  margin: 1em;
+}
+
+.latest-news-container {
+  display: grid;
+}
+
+.latest-news-article {
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.latest-news-article img {
+  width: 70px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.news-article-description {
+  margin-left: 5em;
+}
+
+.news-article-description h3 a {
+  font-size: 14px;
+  color: black;
+}
+
+.news-article-description p {
+  font-size: 12px;
+  color: grey;
+  margin-top: 0.75em;
+}
+
+.news-article-description a {
+  color: grey;
+}
+
+.news-article-description h3 a:hover {
+  color: #f42;
+  border-bottom: 1px solid lightgrey;
+}
+
 h2 {
   color:#f42;
   font-family: Avalon, sans-serif;
