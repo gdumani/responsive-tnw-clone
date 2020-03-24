@@ -51,9 +51,10 @@ h1 {
 
 header {
   width: 100%;
-  max-width: 750px;
+  /* max-width: 750px; */
   position: fixed;
   background: #fff;
+  z-index: 1;
 }
 
 .top-nav {
@@ -142,7 +143,7 @@ this is the styling for the latest news section
 }
 
 .latest-news-container {
-  display: grid;
+  /* display: grid; */
 }
 
 .latest-news-article {
