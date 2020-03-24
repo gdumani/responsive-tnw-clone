@@ -41,7 +41,7 @@ h1 {
 }
 
 .pp span {
-  padding: 0 .5em;
+  padding: 0 0.5em;
 }
 
 .md-6 {
@@ -59,7 +59,6 @@ header {
 }
 
 .top-nav {
-  /* visibility: hidden; */
   display: none;
 }
 
@@ -92,7 +91,6 @@ header {
 
 .yellow-separator {
   text-align: center;
-  max-width: 750px;
   padding: 1.5em;
   margin: 0;
   background: #fcdd33;
@@ -102,12 +100,10 @@ header {
 .top-section {
   display: flex;
   flex-direction: column;
-  max-width: 750px;
 }
 
 .insights {
   position: relative;
-  border: 1px solid magenta;
   margin: 0.5em;
   z-index: -1;
 }
@@ -138,13 +134,14 @@ header {
 this is the styling for the latest news section 
 ***************
 ***************/
-.latest-news{
+
+.latest-news {
   width: 100%;
   margin: 1em;
 }
 
 .latest-news-container {
-  /* display: grid; */
+  display: grid;
 }
 
 .latest-news-article {
@@ -189,11 +186,11 @@ h2 {
   color:#f42;
   font-family: Avalon, sans-serif;
   font-size: 1.5em;
-  padding: .5em ;
+  padding: 0.5em ;
 }
 
 .funding-info p {
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .funding-info a {
@@ -202,18 +199,18 @@ h2 {
 .funding {
   background: #f42;
   color: black;
-  margin: .5em;
+  margin: 0.5em;
 }
 
-
-.funding h3{
-  padding: .5rem 0;
+.funding h3 {
+  padding: 0.5rem 0;
   color: white;
 }
 
 .funding a {
   color: black;
 }
+
 .funding-amount,
 .funding-series {
   background: #ffebe7;
@@ -223,25 +220,27 @@ h2 {
 .funding-amount {
   font-size: 1.3em;
   font-weight: 800;
-  padding-top: .4rem;
+  padding-top: 0.4rem;
 }
+
 .funding-series {
-  font-size: .9em;
+  font-size: 0.9em;
   text-transform: uppercase;
   font-weight: 200;
 }
+
 .funding-logo img {
   width: 60px;
   float: left;
   height: unset;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .funding-tags,
 .funding-description {
   background: white;
   padding: 0.8em;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .funding-description {
@@ -249,52 +248,6 @@ h2 {
   margin-bottom: 1em;
 }
 
-footer {
-  width: 100%;
-  max-width: 750px;
-  display: flex;
-  flex-direction: column;
-  background: #131313;
-  text-align: center;
-}
-
-.social {
-  display: flex;
-  flex-direction: column;
-  padding: 2em;
-}
-
-.social-list {
-  padding: 1em;
-}
-
-.social-list a {
-  display: inline-block;
-  background: #333;
-  padding: 0.75em;
-  border-radius: 60%;
-}
-
-.site-contact {
-  font-size: 0.70em;
-  padding-top: 2em;
-}
-
-.site-contact a {
-  margin:0.25em;
-}
-
-.copyrights {
-  background: black;
-  color: white;
-  font-size: 13px;
-  padding: 3em;
-}
-
-.copyrights img {
-  width:40px;
-  color: white;
-}
 .topics-most-popular {
   position: relative;
   margin: 0.5em;
@@ -375,4 +328,49 @@ ul.topics-list li {
 .old-price {
   padding: 0 1em;
   text-decoration-line: line-through;
+}
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #131313;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.social-list {
+  padding: 1em;
+}
+
+.social-list a {
+  display: inline-block;
+  background: #333;
+  padding: 0.75em;
+  border-radius: 60%;
+}
+
+.site-contact {
+  font-size: 0.70em;
+  padding-top: 2em;
+}
+
+.site-contact a {
+  margin:0.25em;
+}
+
+.copyrights {
+  background: black;
+  color: white;
+  font-size: 13px;
+  padding: 3em;
+}
+
+.copyrights img {
+  width:40px;
+  color: white;
 }
