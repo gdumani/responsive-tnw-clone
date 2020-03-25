@@ -58,6 +58,7 @@ header {
   z-index: 1;
 }
 
+.first-nav,
 .top-nav {
   display: none;
 }
@@ -94,7 +95,7 @@ header {
   padding: 1.5em;
   margin: 0;
   background: #fcdd33;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .top-section {
@@ -378,10 +379,48 @@ footer {
 .top-nav {
   display: flex;
   background: black;
-  color: white;
+  /* color: white; */
   justify-content: space-between;
-  padding: 1em;
+  padding: 0.4em;
 }
+
+.top-nav a {
+  margin-right: 10px;
+  font-size: 13px;
+  color: grey;
+}
+
+.top-nav a:hover {
+  color: lightgrey;
+}
+
+.first-nav {
+  /* display: inline-block; */
+  margin-left: 10em;
+  /* float: center; */
+  color: grey;
+  display: flex;
+
+}
+
+.nav-list a{
+  display: inline-block;
+  color: grey;
+}
+
+.yellow-separator {
+  padding: 0.7em;
+  text-align: left;
+}
+
+.yellow-separator p {
+  margin-left: 10em;
+}
+
+.nav-menu-icon {
+  display: none;
+}
+
 .item1 {
   grid-area: picture1;
 }
