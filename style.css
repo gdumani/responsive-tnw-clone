@@ -333,7 +333,7 @@ ul.topics-list li {
 }
 
 .old-price {
-  padding: 0 1em;
+  padding-right: 1em;
   text-decoration-line: line-through;
 }
 footer {
@@ -417,10 +417,10 @@ footer {
   color: grey;
   font-size: 13px;
 }
-
+/* 
 main {
  padding-top: 150px;
-}
+} */
 
 .yellow-separator {
   padding: 0.7em;
@@ -500,6 +500,7 @@ object-fit: cover;
 .deals {
   display: flex;
   flex-direction: column;
+  padding: 0.5em;
 }
 .deals img {
   width: 80%;
