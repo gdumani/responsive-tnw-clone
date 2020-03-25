@@ -374,3 +374,30 @@ footer {
   width:40px;
   color: white;
 }
+@media screen and (min-width: 768px) {
+.top-nav {
+  display: flex;
+  background: black;
+  color: white;
+  justify-content: space-between;
+  padding: 1em;
+}
+.item1 {
+  grid-area: picture1;
+}
+.item2 {
+  grid-area: picture2;
+}
+.item3 {
+  grid-area: picture3;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "picture1 picture2"
+    "picture1 picture3";
+}
+}
