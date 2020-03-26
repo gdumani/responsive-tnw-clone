@@ -3,7 +3,7 @@
 
 ![screenshot](./images/Screenshot_Laptop.png)
 ![screenshot](./images/Screenshot_iPad.png)
-![screenshot](./images/Screenshot_iPhone X.png)
+![screenshot](./images/Screenshot_iPhoneX.png)
 
 - Responsive Web page using CSS/HTML tools.
 - 3 wiewport sices were used as breakpoints: 
@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/gdumani/responsive-tnw-clone/feature/index.htm)
+[Live Demo Link](https://raw.githack.com/gdumani/responsive-tnw-clone/feature/index.html)
 
 
 
