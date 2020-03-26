@@ -2,8 +2,8 @@
 >Implementation of a responsive web page using TNW's website as example
 
 ![screenshot](./images/Screenshot_Laptop.png)
-![screenshot](./images/Screenshot_Laptop.png)
-![screenshot](./images/Screenshot_Laptop.png)
+![screenshot](./images/Screenshot_Ipad.png)
+![screenshot](./images/Screenshot_Iphone X.png)
 
 - Responsive Web page using CSS/HTML tools.
 - 3 wiewport sices were used as breakpoints: 
