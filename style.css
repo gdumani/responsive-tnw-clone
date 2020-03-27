@@ -104,6 +104,46 @@ header {
   padding: 0.75em;
 }
 
+.news-article-description a {
+  color: grey;
+}
+
+.funding h3 {
+  padding: 0.5rem 0;
+  color: white;
+}
+
+.topics-list a {
+  color: #444;
+  font-size: small;
+  line-height: 1.5em;
+}
+
+.social-list a {
+  display: inline-block;
+  background: #333;
+  padding: 0.75em;
+  border-radius: 60%;
+}
+
+.site-contact a {
+  margin: 0.25em;
+}
+
+.deals h3,
+.news-article-description h3 a {
+  font-size: 14px;
+}
+
+.deals h3 {
+  padding-top: 0.5em;
+}
+
+.deals h3:hover,
+.news-article-description h3 a:hover {
+  border-bottom: 1px solid lightgrey;
+}
+
 .menu-icon,
 .funding a:hover,
 .funding-info,
@@ -174,50 +214,10 @@ main {
   margin-left: 5em;
 }
 
-.news-article-description a {
-  color: grey;
-}
-
 .news-article-description p {
   font-size: 12px;
   color: grey;
   margin-top: 0.75em;
-}
-
-.funding h3 {
-  padding: 0.5rem 0;
-  color: white;
-}
-
-.topics-list a {
-  color: #444;
-  font-size: small;
-  line-height: 1.5em;
-}
-
-.social-list a {
-  display: inline-block;
-  background: #333;
-  padding: 0.75em;
-  border-radius: 60%;
-}
-
-.site-contact a {
-  margin: 0.25em;
-}
-
-.deals h3,
-.news-article-description h3 a {
-  font-size: 14px;
-}
-
-.deals h3 {
-  padding-top: 0.5em;
-}
-
-.deals h3:hover,
-.news-article-description h3 a:hover {
-  border-bottom: 1px solid lightgrey;
 }
 
 h2 {
@@ -416,7 +416,7 @@ footer {
     background: white;
     z-index: 2;
   }
-  
+
   .nav-list a {
     display: inline-block;
     margin-right: 15px;
