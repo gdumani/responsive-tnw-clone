@@ -139,7 +139,7 @@ header {
   padding-top: 0.5em;
 }
 
-.deals h3:hover,
+.deals h3:hover {
   border-bottom: 1px solid lightgrey;
 }
 
