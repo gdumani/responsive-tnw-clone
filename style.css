@@ -140,7 +140,6 @@ header {
 }
 
 .deals h3:hover,
-.news-article-description h3 a:hover {
   border-bottom: 1px solid lightgrey;
 }
 
@@ -148,10 +147,16 @@ header {
 .funding a:hover,
 .funding-info,
 .deals h3:hover,
-.news-article-description h3 a:hover,
 h2,
 .topics-latest,
 ul.topics-list li {
+  color: #f42;
+}
+
+/*** Repetition requiered to comply witn Stickler rules ***/
+
+.news-article-description h3 a:hover {
+  border-bottom: 1px solid lightgrey;
   color: #f42;
 }
 
