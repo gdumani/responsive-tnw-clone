@@ -118,8 +118,8 @@ main {
 .insights::after {
   display: block;
   position: relative;
-  margin-top: -250px;
-  height: 250px;
+  margin-top: -150px;
+  height: 150px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(89, 89, 89, 0.39) 12%, rgba(0, 0, 0, 0.43) 17%, rgba(102, 102, 102, 0.49) 25%, rgba(44, 44, 44, 0.58) 37%, rgba(71, 71, 71, 0.6) 39%, rgba(17, 17, 17, 0.76) 60%, rgba(43, 43, 43, 0.88) 76%, rgba(40, 40, 40, 200) 79%, rgba(28, 28, 28, 255) 91%, rgba(19, 19, 19, 255) 100%);
   content: '';
 }
@@ -286,14 +286,16 @@ h2 {
   width: 100%;
 }
 
-.topics-most-popular::after {
-  display: block;
-  position: relative;
-  margin-top: 250px;
-  height: 250px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(89, 89, 89, 0.39) 12%, rgba(0, 0, 0, 0.43) 17%, rgba(102, 102, 102, 0.49) 25%, rgba(44, 44, 44, 0.58) 37%, rgba(71, 71, 71, 0.6) 39%, rgba(17, 17, 17, 0.76) 60%, rgba(43, 43, 43, 0.88) 76%, rgba(40, 40, 40, 200) 79%, rgba(28, 28, 28, 255) 91%, rgba(19, 19, 19, 255) 100%);
-  content: '';
-}
+/* .topics-most-popular::after { */
+  /* display: block; */
+  /* position: relative; */
+  /* left: 0;
+  bottom: 0;
+  background: green; */
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 30)); */
+  /* background: linear-gradient(to bottom, rgba(102, 102, 102, 0.49) 25%, rgba(44, 44, 44, 0.58) 37%, rgba(71, 71, 71, 0.6) 39%, rgba(17, 17, 17, 0.76) 60%, rgba(43, 43, 43, 0.88) 76%, rgba(40, 40, 40, 200) 79%, rgba(28, 28, 28, 255) 91%, rgba(19, 19, 19, 255) 100%); */
+  /* content: ''; */
+/* } */
 
 .topics-latest {
   background: #ffebe7;
@@ -392,6 +394,11 @@ footer {
   font-weight: 900;
 }
 @media screen and (min-width: 768px) {
+  header {
+    position: unset;
+    display: unset;
+  }
+
   .top-nav {
     display: flex;
     background: black;
@@ -407,10 +414,18 @@ footer {
 
   .first-nav {
     position: absolute;
-    top: 3em;
+    top: 1.1em;
     left: 8em;
     color: grey;
     display: flex;
+    background: white;
+  }
+
+  .sticky-container {
+    position: sticky;
+    top: 0;
+    background: white;
+    /* background: grey; */
   }
 
   .nav-list a {
