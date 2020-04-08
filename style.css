@@ -153,8 +153,6 @@ ul.topics-list li {
   color: #f42;
 }
 
-/*** Repetition requiered to comply witn Stickler rules ***/
-
 .news-article-description h3 a:hover {
   border-bottom: 1px solid lightgrey;
   color: #f42;
@@ -387,7 +385,6 @@ footer {
     display: unset;
   }
 
-  /*** Flex groups for viewpor greater than 768px ***/
   .top-nav,
   .first-nav,
   .latest-news-article,
@@ -556,8 +553,6 @@ footer {
   .funding.disappear {
     display: unset;
   }
-
-  /*** flex group for viewport greater than 1024px ***/
 
   .funding-info {
     display: flex;
